@@ -249,6 +249,24 @@
             "valid_max": "", 
             "ok_min_mean_abs": "", 
             "ok_max_mean_abs": ""
+        },
+        "fco2anttsum": {
+            "frequency": "subhrPt",
+            "modeling_realm": "atmos",
+            "standard_name": "",
+            "units": "Pg m-2 s-1",
+            "cell_methods": "area: mean where land time: mean longitude: latitude: sum",
+            "cell_measures": "area: areacella",
+            "long_name": "Carbon Mass Flux into Atmosphere Due to All Anthropogenic Emissions of CO2",
+            "comment": "This is requested only for the emission-driven coupled carbon climate model runs.  Does not include natural fire sources but, includes all anthropogenic sources, including fossil fuel use, cement production, agricultural burning, and sources associated with anthropogenic land use change excluding forest regrowth.",
+            "dimensions": "time",
+            "out_name": "fco2anttsum",
+            "type": "real",
+            "positive": "",
+            "valid_min": "",
+            "valid_max": "",
+            "ok_min_mean_abs": "",
+            "ok_max_mean_abs": ""
         }, 
         "fco2fos": {
             "frequency": "subhrPt", 
